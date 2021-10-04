@@ -31,10 +31,10 @@
 			- variables.env ```gets created during workflow```
 	- iris-standard
 		- target.py ```entry script to initiate hyperparameter training```
-		- train.py ```training script in R```
+		- train.py ```training script in Python```
 	- iris-command-argument
 		- target.py ```entry script to initiate hyperparameter training```
-		- train.py ```training script in R```
+		- train.py ```training script in Python```
 	- wine-quality-R-command-argument
 		- Dockerfile ```Docker file specifications for R environment```
 		- conda-specs.yaml ```conda specifications for R environment```
