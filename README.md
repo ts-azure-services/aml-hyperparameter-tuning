@@ -1,9 +1,9 @@
 # Intent
-- A repo to expose some examples of hyperparameter tuning in Azure Machine Learning. While hyperparameter
-  tuning is fairly well-documented, when you start to leverage 'R' or more specifically, the 'command'
+- A repo to expose some examples of hyperparameter tuning in Azure Machine Learning. 
+- While hyperparameter tuning is fairly well-documented, when you start to leverage 'R' or more specifically, the 'command'
   argument in the ScriptRunConfig, there are some additional lines of code to work through to ensure
-  parameters cycle through multiple combinations. The 'command' argument is mutually exclusive to the use of
-  'script/arguments' argument.
+  parameters cycle through multiple combinations. 
+- The 'command' argument is mutually exclusive to the use of 'script/arguments' argument.
 - This repo has three examples of hyperparameter tuning, using Python and 'R':
 	- ```iris-standard``` This is the cleanest, best-documented example with the iris dataset, using Python
 	- ```iris-command-argument``` This uses the above dataset with Python, but with the ```command```
